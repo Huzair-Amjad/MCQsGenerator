@@ -1,0 +1,4 @@
+1,2,3,4,5
+What is the goal of supervised learning?,Which type of supervised learning problem involves predicting house prices?,What is the function that measures the difference between predicted and actual outputs?,Which algorithm is used for binary classification?,What technique involves splitting the data into multiple folds for training and testing?
+"{'a': 'To learn from unlabeled data', 'b': 'To learn from labeled data', 'c': 'To predict continuous outputs', 'd': 'To classify data into discrete labels'}","{'a': 'Regression', 'b': 'Classification', 'c': 'Clustering', 'd': 'Association'}","{'a': 'Activation function', 'b': 'Loss function', 'c': 'Optimization function', 'd': 'Regularization function'}","{'a': 'Linear Regression', 'b': 'Decision Trees', 'c': 'Logistic Regression', 'd': 'k-Nearest Neighbors'}","{'a': 'Train/Test Split', 'b': 'Cross-Validation', 'c': 'Feature Engineering', 'd': 'Hyperparameter Tuning'}"
+b,a,b,c,b
