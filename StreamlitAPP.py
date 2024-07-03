@@ -7,7 +7,7 @@ from src.mcqgenerator.MCQgenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 from langchain_community.callbacks.manager import get_openai_callback
 
-with open(r'C:\Users\Dell\mcqgenproj\Response.json', 'r') as file:
+with open(r'D:\Users\Dell\mcqgenproj\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #create a form my st.form
