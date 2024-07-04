@@ -7,12 +7,12 @@ from src.mcqgenerator.MCQgenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 from langchain_community.callbacks.manager import get_openai_callback
 
-with open(r'D:\Users\Dell\mcqgenproj\Response.json', 'r') as file:
+with open(r'D:\Users\Dell\MCQsGenerator\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #create a form my st.form
 with st.form("user_inputs"):
-    st.title("Welcome to the Langchain MCQGen App!")
+    st.title("Welcome to Langchain MCQGen App 🔗🦜")
     #file upload
     uploaded_file = st.file_uploader("Upload a PDF or TXT File")
 
